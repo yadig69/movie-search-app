@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 50%;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid rgba(113, 169, 207, 0.631372549);
+}
+
+.button {
+  background-color: #71a9cf;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 15px;
+}/*# sourceMappingURL=search.module.css.map */
