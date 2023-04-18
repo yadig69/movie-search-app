@@ -4,7 +4,7 @@ import classNames from 'classnames';
 export interface FavoriteCardProps {
     className?: string;
     movie: {
-        id: string;
+        id: number;
         poster_path?: string;
         title: string;
         overview: string;

@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => (
         <Card
             movie={{
-                id: 'hello',
+                id: 123,
                 overview:
                     "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
                 release_date: '2000',

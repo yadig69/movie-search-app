@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => (
         <FavoriteCard
             movie={{
-                id: '43',
+                id: 43,
                 overview:
                     'A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath who can only be stopped by a teenager, his gang of biker friends and a group of psychics.',
                 release_date: '1988',

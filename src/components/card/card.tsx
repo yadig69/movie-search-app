@@ -4,7 +4,7 @@ import classNames from 'classnames';
 export interface CardProps {
     className?: string;
     movie: {
-        id: string;
+        id: number;
         poster_path?: string;
         title: string;
         overview: string;
@@ -20,7 +20,7 @@ export interface CardProps {
 export const Card = ({ className, movie }: CardProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <img src={movie.poster_path} className={styles['card-img']} />
+            <img src={movie.poster_path} alt="g" className={styles['card-img']} />
             <div className={styles.detail}>
                 <h1>{movie.title}</h1>
                 <span className={styles.rating}>{movie.vote_average}</span>

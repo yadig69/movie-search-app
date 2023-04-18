@@ -28,6 +28,10 @@
   color: #fff;
   opacity: 0%;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 .detail:hover {
   opacity: 1;

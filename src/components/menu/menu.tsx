@@ -17,7 +17,7 @@ export const Menu = ({ className }: MenuProps) => {
         <div className={classNames(styles.root, className)}>
             <div className={styles.logo}>
                 {/* <img src="/src/assets/movie-popcorn.png" className={styles['logo-img']} /> */}
-                <img src="https://i.imgur.com/zYa4iMN.png" className={styles['logo-img']} />
+                <img src="https://i.imgur.com/zYa4iMN.png" alt="l" className={styles['logo-img']} />
                 <span className={styles['logo-text']}>69 movies</span>
             </div>
             <span className={styles.title}>sort by</span>
